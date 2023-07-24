@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "outDir": "../../build/scripts",
+    "rootDir": ".",
+    "noEmit": false
+  },
+  "include": ["**/*.ts"]
+}
