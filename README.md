@@ -39,4 +39,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
+This project is licensed under the MIT License. However, please note that this software is for personal and educational use only and is not intended for commercial purposes. If you wish to use this software for commercial purposes, please contact the author.
+
 [MIT](https://choosealicense.com/licenses/mit/)
