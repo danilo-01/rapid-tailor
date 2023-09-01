@@ -8,7 +8,7 @@ import ConfirmGenerateSection from "./confirm-generate-section";
 const Generate = () => {
   return (
     <GenerateWrapper>
-      <SkillMatchRating />
+      <SkillMatchRating skillMatchScore={80} />
       <JobDescriptionSelection />
       <DocumentTypeSelection />
       <ConfirmGenerateSection />
@@ -18,4 +18,12 @@ const Generate = () => {
 
 export default Generate;
 
-const GenerateWrapper = styled.div``;
+const GenerateWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;

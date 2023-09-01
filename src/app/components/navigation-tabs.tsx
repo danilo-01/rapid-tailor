@@ -9,6 +9,7 @@ const NavigationTabs = ({
   setCurrentTab: React.Dispatch<React.SetStateAction<viewType>>;
   currentTab: viewType;
 }) => {
+  /**Main navigation tabs */
   const tabs: viewType[] = ["GENERATE", "STYLES", "DOWNLOADS"];
   return (
     <NavigationTabsWrapper>
@@ -48,9 +49,10 @@ const TabWrapper = styled.div<{ active: boolean }>`
   line-height: normal;
 
   background-color: ${(props) => (props.active ? "#FFFFFF" : "#F5F5F5")};
+  transition: all 0.05s ease-in-out;
 
   border-top: 1px solid ${(props) => (props.active ? "#e6e6e6" : "#F5F5F5")};
-  border-right: 1px solid ${(props) => (props.active ? "#e6e6e6" : "#e6e6e6")};
-  border-left: 1px solid ${(props) => (props.active ? "#e6e6e6" : "#e6e6e6")};
+  border-right: 1px solid ${(props) => (props.active ? "#e6e6e6" : "#F5F5F5")};
+  border-left: 1px solid ${(props) => (props.active ? "#e6e6e6" : "#F5F5F5")};
   border-bottom: 1px solid ${(props) => (props.active ? "#ffffff" : "#e6e6e6")};
 `;

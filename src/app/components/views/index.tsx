@@ -12,4 +12,14 @@ const ViewSwitch = ({ view }: { view: viewType }) => {
 
 export default ViewSwitch;
 
-const ViewSwitchWrapper = styled.div``;
+const ViewSwitchWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  padding: 1rem;
+
+  box-sizing: border-box;
+`;

@@ -25,7 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build && tsc -p src/scripts/tsconfig.scripts.json",
     "watch-build": "watch \"npm run build\" src",
-    "watch-dev": "watch \"npm run start\" src",
+    "watch": "watch \"react-scripts start\" src",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

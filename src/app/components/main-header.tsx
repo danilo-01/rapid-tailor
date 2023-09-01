@@ -27,7 +27,6 @@ const MainHeaderWrapper = styled.div`
   align-items: center;
   width: 100%;
   padding: 0rem 2rem 0 2rem;
-  border: 1px solid blue;
 `;
 
 const CreditsAndOptionsWrapper = styled.div`
