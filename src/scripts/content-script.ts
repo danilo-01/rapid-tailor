@@ -29,7 +29,8 @@ function injectReactApp(mainJsFile) {
   rootDiv.style.right = "0"; // Stick to the right side.
   rootDiv.style.width = "30rem"; // Or whatever width you desire.
   rootDiv.style.height = "100vh"; // Take up the full height of the viewport.
-  rootDiv.style.zIndex = "9999999"; // High zIndex to make it appear above most other page elements.
+  rootDiv.style.zIndex =
+    "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999"; // High zIndex to make it appear above most other page elements.
   rootDiv.style.backgroundColor = "rgba(255,255,255,0.9)"; // Give it a slightly opaque white background. Adjust as necessary.
   rootDiv.style.overflowY = "auto"; // Add scroll if the content is longer than the viewport.
 
