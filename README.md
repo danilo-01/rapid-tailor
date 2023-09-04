@@ -1,6 +1,10 @@
 # Rapid Tailor
 
 Craft tailored resumes & cover letters instantly with this Chrome extension. Designed for job seekers and professionals, Rapid Tailor allows users to select a job description from any webpage and generate a customized resume and cover letter based on their existing resume.
+![image](https://github.com/danilo-01/rapid-tailor/assets/66889136/b2ca2fb2-7763-421e-92f5-5bf8771612b5)
+
+THIS PROJECT IS ON HOLD
+Due to thinking of better more efficient ways to apply for jobs ive put this project on hold and probably won't finish it unless get some free time. I'm mostly going to focus on my web scraper/sequence recorder as i feel this will allow me to achieve my goals alot faster.
 
 ## Features
 
